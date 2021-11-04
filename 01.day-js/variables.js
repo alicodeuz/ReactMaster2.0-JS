@@ -25,5 +25,25 @@ var currentLoggedInUser = {
   }
 };
 
+// Reference - array, object-(function, null, array);
 
-// Reference - array, object-(function, null, array)
+function getMyName(age, location) {
+  var myLastName = ' hehdchhcd';
+  alert(currentLoggedInUser.first_name + myLastName + age)
+}
+
+getMyName(12, 'London'); //call the function
+
+// ES6 - let & const
+
+const age = 45;
+let total = 0;
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+  total = total + i; // total += i
+}
+
+for (let i = 0; i < total; i++) {
+  console.log(i);
+}
