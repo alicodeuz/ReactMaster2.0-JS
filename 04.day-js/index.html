@@ -11,20 +11,20 @@
 
 <body>
     <h2>Empty</h2>
-    <form action="" method="" onsubmit="handleFormSubmit(event)">
-        <input type="text" placeholder="Your name" onkeyup="handleKeyPress(event)" onchange="handleChange(event)">
+    <form action="" id="my-form" method="" onsubmit="handleFormSubmit(event)">
+        <input type="text" name="name" placeholder="Your name" onkeyup="handleKeyPress(event)" onchange="handleChange(event)">
         <p>
             <label for="student">Are you student</label>
-            <input type="checkbox" id="student" value="student">
+            <input type="checkbox" name="isStudent" onchange="handleCheckBox(event)" id="student" value="student">
         </p>
-        <div class="hide">
-            <input type="text" placeholder="University name">
-            <input type="text" placeholder="University addresss">
+        <div class="university-input">
+            <input type="text" name="universityName" placeholder="University name">
+            <input type="text" name="universityAddress" placeholder="University addresss">
         </div>
-
         </div>
-        <button type="button">Send</button>
+        <button>Send</button>
     </form>
+    <ul id="list"></ul>
     <script src="index.js"></script>
 </body>
 

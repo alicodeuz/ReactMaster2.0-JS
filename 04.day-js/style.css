@@ -1,7 +1,7 @@
-.hide {
+.university-input {
     display: none;
 }
 
-.show {
+.university-input.show {
     display: block;
 }
