@@ -1,0 +1,7 @@
+.university-input {
+    display: none;
+}
+
+.university-input.show {
+    display: block;
+}
