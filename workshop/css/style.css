@@ -1,0 +1,37 @@
+:root {
+    --main: #171717;
+    --main-light: #353535;
+    --green: #00c26b;
+    --text-light: #b5b5b5;
+}
+
+body {
+    color: var(--text-light);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.text-light {
+    color: var(--text-light);
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.bg-main {
+    background-color: var(--main);
+}
+
+.bg-dark__light {
+    background-color: var(--main-light);
+}
+
+
+/* ==== Custome Bootstrap ==== */
+
+.card-text {
+    font-size: 12px !important;
+}
